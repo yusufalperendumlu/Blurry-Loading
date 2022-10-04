@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,500&family=Rubik+Distressed&display=swap');
+
+*
+{
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    user-select: none;
+}
+
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0%;
+    
+}
+
+.img
+{
+    background: url(https://pbs.twimg.com/media/DjVVrH4XoAA6xHb?format=jpg&name=4096x4096);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    width: calc(100vw + 60px);
+    height: calc(100vh + 60px);
+    filter: blur(0px);
+    z-index: -1;
+}
+
+.loading
+{
+    font-size: 60px;
+}
+
